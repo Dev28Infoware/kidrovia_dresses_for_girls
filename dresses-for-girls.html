@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Meta tags for SEO  -->
+        <title>Dresses for girls</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" content="Dresses for girls" />
+        <meta name="description" content="Dresses for girls - An exclusive shop for girls where you can buy your kids' outfits." />
+        <meta name="keywords" content="Kidrovia, Shop, Kids Shop, Pants, Shirts, Tshirts, Toys" />
+
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+
+            :root {
+                --global-font-family: "Raleway", sans-serif;
+            }
+
+            body{
+                margin: 0;
+                font-family: var(--global-font-family);
+            }
+
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-family: var(--global-font-family);
+            }
+
+            #scroll_to_top{
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                border-radius: 50%;
+                background: rgb(248, 248, 248);
+                z-index: 100;
+                cursor: pointer;
+                transition: transform 0.25s linear;
+            }
+
+            #scroll_to_top span{
+                display: block;
+                border: 2px solid #253d4e;
+                background: transparent;
+                border-radius: 50%;
+                z-index: 100;
+                color: #253d4e;
+                font-size: 26px;
+                flex-shrink: 0;
+                padding: 4px;
+            }
+
+            #scroll_to_top:hover{
+                transform: translate(0,-4px);
+            }
+
+            .products_grid{
+                display: grid;
+                grid-template-columns: repeat(5,calc(20% - 1rem));
+                column-gap: 1rem;
+                row-gap: 3rem;
+                margin: 1.5rem 1.5rem 3rem 1.5rem;
+                min-height: calc(100vh - 13rem - 43px);
+            }
+
+            .products_grid .product{
+                cursor: pointer;
+            }
+
+            .products_grid a.product {
+                display: block;
+                text-decoration: none;
+                color: inherit;
+            }
+
+            .product .product_img img{
+                width: 100%;
+                border: 1px solid rgb(248, 248, 248);
+                box-shadow: 4px 5px 8px rgb(248, 248, 248);
+                margin-bottom: 1.5rem;
+            }
+
+            .product .product_details .product_name{
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                line-height: 1.23077em;
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .product .product_details .product_not_name{
+                text-transform: uppercase;
+                line-height: 1.23077em;
+                font-size: 13.5px;
+                font-weight: 600;
+            }
+
+            .product .product_details .product_not_name .price{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 17px;
+            }
+
+            .product .product_details .product_name:last-child{
+                margin-top: 0.4rem;
+                text-decoration: underline;
+            }
+
+            .product .product_details .product_desc{
+                margin: 0.25rem 0 1.5rem 0;
+                letter-spacing: -0.005em;
+                font-size: 13.5px;
+                font-weight: 500;
+                -webkit-line-clamp: 2;
+                display: -webkit-box;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                -webkit-box-orient: vertical;
+            }
+
+            @media (min-width:1068px) and (max-width:1372px){
+                .products_grid{
+                    grid-template-columns: repeat(4,calc(25% - 1rem));
+                } 
+            }
+
+            @media (min-width:768px) and (max-width:1068px){
+                .products_grid{
+                    grid-template-columns: repeat(3,calc(33.333% - 1rem));
+                } 
+            }
+
+            @media (max-width:767px){
+                .products_grid{
+                    margin: 2.5rem;
+                    margin-top: 1rem;
+                    grid-template-columns: 100%;
+                    column-gap: 0;
+                    row-gap: 2.5rem;
+                    min-height: calc(100vh - 8rem - 58px);
+                } 
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- <div class="p-4 bg-white shadow-lg rounded-lg mx-auto mt-10 w-5/6 ">
+            <form class="w-full h-full relative flex items-center" id="searchForm">
+                <label for="default-search" class="sr-only">Search</label>
+                <input type="search" id="default-search" class="block w-full p-4 pl-10 text-lg text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Keyword..." required />
+                <button type="submit" class="absolute inset-y-0 right-0 flex items-center px-4 py-2 text-sm font-medium text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Search
+                </button>
+            </form>
+        </div>
+        <div class=" flex item-center justify-center m-2">
+            <button id="dropdownButton" class="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-600">
+                Select Store
+            </button>
+            <div id="dropdownMenu" class="flex item-center justify-center absolute right-[50%] mt-10 w-70 bg-white border border-gray-300 rounded-lg shadow-lg hidden">
+                <ul id="dropdownList" class="py-1">
+                    Dropdown items will be populated here
+                </ul>
+            </div>
+            <div id="'store_selected">
+
+            </div>
+        </div> -->
+        <!-- <div class="flex w-1/5 h-full border border-blue-600">
+            sidebar
+        </div> -->
+        
+        <div class="">
+            <h1 class="justify-center text-center text-2xl font-bold mt-4 mx-4">
+                Dresses for girls
+            </h1>
+            <div class="flex m-2">
+                <div class="products_grid" id = 'result'>
+                    <!-- <h1>Flex offer</h1> -->
+                </div>
+            </div>
+
+            <div id="scroll_to_top" title="Scroll to top">
+                <span class="material-icons">arrow_upward</span>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js"></script>
+        <script>
+            const resultDiv = document.getElementById('result');
+
+            // async function fetchDataFlexOffer(search){
+            //     const data = JSON.parse(localStorage.getItem('store'));
+            //     let id ;
+            //     let name ;
+            //     let type;
+            //     if(data){
+            //         id = data.id;
+            //         name = data.name;
+            //         type = data.from;
+            //     }
+            //     else{
+            //         id = '0';
+            //         name = '-';
+            //         type = '-'
+            //     }
+            //     console.log(data);
+            //     try{
+            //         let response = await fetch(`http://localhost:3000/api/products/search?searchQuery=${search}&id=${id}&name=${name}&type=${type}`,{
+            //         // headers : {
+            //         //     "apiKey":"41a02e6b-b5a3-4d7f-ae2a-476cdd6be0b7",
+            //         //     "Content-Type": "application/json"
+            //         // }
+            //         // body:data
+            //     });
+        
+            //     if(!response.ok){
+            //         resultDiv.innerHTML='Unable to get response from api';
+            //         throw new Error(response.statusText);
+            //     }
+            //     products = await response.json();
+            //     console.log(products);
+            //     resultDiv.innerHTML='';
+            //     products.forEach(element => {
+            //         renderProduct(element,'Flexoffer');
+            //     });
+            //     localStorage.removeItem('store');
+            //     }
+            //     catch(error){
+            //         console.error(error.stack);
+            //         resultDiv.innerHTML='Unable to get response from api';
+            //     }
+            // }
+            
+            // async function fetchDataLinkShare(){
+            //     const authTokenResponse = await fetch('https://api.linksynergy.com/token', {
+            //         method : "POST",
+            //         headers : {
+            //             "Authorization":"Bearer d1NQME5lWWpjWTFSNkdiWklEeDdTVEk1SlVnSXVLSXg6SzdtQWQ0aDc5TDYwdXJRbXp1U2doenp2SER3Y0YyRlY=",
+            //             "Content-Type": "application/x-www-form-urlencoded"
+            //         },
+            //         body : "scope=3780612"
+            //     });
+
+                
+            //     if(!authTokenResponse.ok){
+            //         throw new Error("Can't be authorised");
+            //     }
+
+            //     const authToken = await authTokenResponse.json();
+
+            //     let response = await fetch(`https://api.linksynergy.com/productsearch/1.0?keyword=shirts`,{
+            //         headers : {
+            //             "Authorization":`Bearer ${authToken?.access_token}`,
+            //             "Content-Type": "application/xml"
+            //         }
+            //     });
+        
+            //     if(!response.ok){
+            //         throw new Error(response.statusText);
+            //     }
+                
+            //     products = await xmlToJSON(response?.result?.item);
+            //     console.log(products);
+            // }
+            
+            function xmlToJSON(xmlText){
+                let x2js = new X2JS();
+                return x2js.xml_str2json( xmlText );
+            }
+            
+            function renderProduct(product,shop) {
+                const productDiv = document.createElement('div');
+                productDiv.className = 'flex-row border border-solid-gray p-2';
+                productDiv.innerHTML = `
+                    <h1 class="text-2xl font-bold mb-2">${product.productName}</h1>
+                    <img src="${product.imageUrl[0]}" alt="${product.productName}" class="w-1/4 h-1/4 mb-4 rounded-lg">
+                    <p class="text-lg mb-2"><strong>Price:</strong> $${product.price}</p>
+                    <p class="text-lg mb-2"><strong>Final Price:</strong> $${product.salesPrice}</p>
+                    <p class="text-md mb-2"><strong>Description:</strong> ${product.description}</p>
+                    <p class="text-md mb-2"><strong>Category:</strong> ${product.category}</p>
+                    <p class="text-md mb-2"><strong>Manufacturer:</strong> ${product.manufacturer!='-'?product.manufacturer:product.advertiserName}</p>
+                    <p class="text-md mb-2"><strong>Color:</strong> ${product.color[0]?product.color[0]:'-'}</p>
+                    <a href="${product.linkurl[0]}" class="text-blue-500 hover:underline">View Product</a>
+                    <p>From.. ${product.from}</p>
+                `;
+                resultDiv.appendChild(productDiv)
+            }
+            
+            // document.getElementById('searchForm').addEventListener('submit', function(event) {
+            //     event.preventDefault(); // Prevent the form from submitting normally
+            //     const searchInput = document.getElementById('default-search').value;
+            //     // console.log('Search query:', searchInput);
+            
+            //     resultDiv.innerHTML= '';
+                
+            //     resultDiv.innerHTML="LOADING PLEASE WAIT....";
+            //     fetchDataFlexOffer(searchInput);
+            // });
+            
+            // document.addEventListener('DOMContentLoaded', function () {
+            //     const dropdownButton = document.getElementById('dropdownButton');
+            //     const dropdownMenu = document.getElementById('dropdownMenu');
+            //     const dropdownList = document.getElementById('dropdownList');
+
+            //     // Fetch data from the API
+            //     fetch('http://localhost:3000/api/merchant/get_all')  // Replace with the actual API endpoint
+            //         .then(response => response.json())
+            //         .then(data => {
+            //             data.forEach(item => {
+            //                 const listItem = document.createElement('li');
+            //                 listItem.className = 'flex items-center p-2 cursor-pointer hover:bg-gray-100';
+            //                 listItem.innerHTML = `
+            //                     <img src="${item.imageUrl}" alt="${item.name}" class="w-12 h-12 mr-2">
+            //                     <span>${item.name}</span>
+            //                 `;
+            //                 listItem.addEventListener('click', () => {
+            //                     localStorage.setItem('store',JSON.stringify(item));
+            //                     alert('Data save to local Storage');
+            //                     // window.location.href = item.url;  
+            //                 });
+            //                 dropdownList.appendChild(listItem);
+            //             });
+            //         })
+            //         .catch(error => console.error('Error fetching data:', error));
+            //         dropdownButton.addEventListener('click', () => {
+            //         dropdownMenu.classList.toggle('hidden');
+            //     });
+
+            //     // Hide dropdown if clicked outside
+            //     document.addEventListener('click', (event) => {
+            //         if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+            //             dropdownMenu.classList.add('hidden');
+            //         }
+            //     });
+            // });
+            // // fetchDataLinkShare();
+            
+            const products = [
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: Small (7), Black Peace",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Black_Peace?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: S (7). Color: Black Peace. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314118&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314118"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Peace"
+        ],
+        "size": [
+            "S (7)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: XS (6/6X), Blue Team Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Blue_Multi_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XS (6/6X). Color: Blue Team Dye. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314122&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314122"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Blue Team Dye"
+        ],
+        "size": [
+            "XS (6/6X)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: XL (14/16), Blue Team Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Blue_Multi_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XL (14/16). Color: Blue Team Dye. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102856&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102856"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Blue Team Dye"
+        ],
+        "size": [
+            "XL (14/16)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: Small (7), Gray Butterfly",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Gray_Butterfly?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: S (7). Color: Gray Butterfly. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314129&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314129"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Gray Butterfly"
+        ],
+        "size": [
+            "S (7)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: XS (6/6X), Blue Team Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Blue_Multi_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XS (6/6X). Color: Blue Team Dye. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102851&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102851"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Blue Team Dye"
+        ],
+        "size": [
+            "XS (6/6X)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: XL (14/16), Black Peace",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Black_Peace?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XL (14/16). Color: Black Peace. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314121&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314121"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Peace"
+        ],
+        "size": [
+            "XL (14/16)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: Large (10/12), Gray Butterfly",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Gray_Butterfly?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: L (10/12). Color: Gray Butterfly. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102860&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102860"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Gray Butterfly"
+        ],
+        "size": [
+            "L (10/12)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 Asian Culture Dresses Group Shot Graphic Tee, Girl's, Size: Small, Red",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/5005365?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 21.99,
+        "currency": "USD",
+        "salesPrice": 19.99,
+        "discount": "9%",
+        "category": "Apparel & Accessories >Clothing >Baby & Toddler Clothing >Baby & Toddler Tops ",
+        "manufacturer": "Unbranded",
+        "advertiserName": "Kohl's",
+        "description": "Celebrate your heritage with this girls' graphic tee. She'll celebrate Asian American Pacific Islander Heritage Month with this inspiring girls' tee. Crewneck Short sleeves In honor of Asian American Pacific Islander Heritage Month, Kohl’s is donating $100,000 to Alliance for a Healthier Generation to celebrate Asian American and Pacific Islander health equity champions and to develop resources that support the health and well-being of Asian American and Pacific Islander families. Learn more at KohlsHealthyAtHome.org.FABRIC & CARE Cotton Machine wash Imported Size: Small. Color: Red. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-5005365/girls-6-16-asian-culture-dresses-group-shot-graphic-tee.jsp?skuid=77922601&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=77922601"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Red"
+        ],
+        "size": [
+            "Small"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: Medium (8), Black Peace",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Black_Peace?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: M (8). Color: Black Peace. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314119&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314119"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Peace"
+        ],
+        "size": [
+            "M (8)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 Asian Culture Dresses Group Shot Graphic Tee, Girl's, Size: Medium, Red",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/5005365?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 21.99,
+        "currency": "USD",
+        "salesPrice": 19.99,
+        "discount": "9%",
+        "category": "Apparel & Accessories >Clothing >Baby & Toddler Clothing >Baby & Toddler Tops ",
+        "manufacturer": "Unbranded",
+        "advertiserName": "Kohl's",
+        "description": "Celebrate your heritage with this girls' graphic tee. She'll celebrate Asian American Pacific Islander Heritage Month with this inspiring girls' tee. Crewneck Short sleeves In honor of Asian American Pacific Islander Heritage Month, Kohl’s is donating $100,000 to Alliance for a Healthier Generation to celebrate Asian American and Pacific Islander health equity champions and to develop resources that support the health and well-being of Asian American and Pacific Islander families. Learn more at KohlsHealthyAtHome.org.FABRIC & CARE Cotton Machine wash Imported Size: Medium. Color: Red. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-5005365/girls-6-16-asian-culture-dresses-group-shot-graphic-tee.jsp?skuid=77922602&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=77922602"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Red"
+        ],
+        "size": [
+            "Medium"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: XL (14/16), Blue Team Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Blue_Multi_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XL (14/16). Color: Blue Team Dye. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314127&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314127"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Blue Team Dye"
+        ],
+        "size": [
+            "XL (14/16)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee, Girl's, Size: Small, White Blue",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/5536055?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 35,
+        "currency": "USD",
+        "salesPrice": 31.5,
+        "discount": "10%",
+        "category": "Apparel & Accessories >Clothing >Baby & Toddler Clothing >Baby & Toddler Tops ",
+        "manufacturer": "Disney",
+        "advertiserName": "Kohl's",
+        "description": "You'll love the look of this juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee. ©Disney You'll love the look of this juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee. ©Disney Crewneck Short SleeveFABRIC & CARE Cotton Machine wash Imported Size: Small. Color: White Blue. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-5536055/juniors-disney-textbook-dresses-bombard-wash-crop-graphic-tee.jsp?skuid=46883098&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=46883098"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "White Blue"
+        ],
+        "size": [
+            "Small"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-20 SO® 2-Pack Skater Dresses in Regular & Plus Size, Girl's, Size: Large (10/12), Floral",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6502046_Floral?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 20.99,
+        "discount": "30%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the effortless style of these girls' skater dresses from SO. She'll love the effortless style of these girls' skater dresses from SO. FEATURES 2 pack Short sleeves Knee length Skater silhouetteFABRIC & CARE Cotton, polyester Machine wash ImportedSUSTAINABILITY FEATURES Supports more sustainable cotton farming Size: L (10/12). Color: Floral. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6502046/girls-6-20-so-2-pack-skater-dresses-in-regular-plus-size.jsp?skuid=59315441&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=59315441"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Floral"
+        ],
+        "size": [
+            "L (10/12)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: Large (10/12), Blue Team Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Blue_Multi_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: L (10/12). Color: Blue Team Dye. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102855&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102855"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Blue Team Dye"
+        ],
+        "size": [
+            "L (10/12)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: XS (6/6X), Black Peace",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Black_Peace?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XS (6/6X). Color: Black Peace. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102846&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102846"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Peace"
+        ],
+        "size": [
+            "XS (6/6X)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-20 SO® 2-Pack Skater Dresses in Regular & Plus Size, Girl's, Size: XL (14/16), Mermaid Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6502046_Mermaid_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 20.99,
+        "discount": "30%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the effortless style of these girls' skater dresses from SO. She'll love the effortless style of these girls' skater dresses from SO. FEATURES 2 pack Short sleeves Knee length Skater silhouetteFABRIC & CARE Cotton, polyester Machine wash ImportedSUSTAINABILITY FEATURES Supports more sustainable cotton farming Size: XL (14/16). Color: Mermaid Dye. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6502046/girls-6-20-so-2-pack-skater-dresses-in-regular-plus-size.jsp?skuid=59315436&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=59315436"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Mermaid Dye"
+        ],
+        "size": [
+            "XL (14/16)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: Small (7), Blue Team Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Blue_Multi_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: S (7). Color: Blue Team Dye. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102852&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102852"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Blue Team Dye"
+        ],
+        "size": [
+            "S (7)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: Large (10/12), Blue Team Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Blue_Multi_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: L (10/12). Color: Blue Team Dye. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314125&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314125"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Blue Team Dye"
+        ],
+        "size": [
+            "L (10/12)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: XL (14/16), Gray Butterfly",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Gray_Butterfly?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XL (14/16). Color: Gray Butterfly. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314132&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314132"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Gray Butterfly"
+        ],
+        "size": [
+            "XL (14/16)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: Medium (8), Gray Butterfly",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Gray_Butterfly?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: M (8). Color: Gray Butterfly. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102859&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102859"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Gray Butterfly"
+        ],
+        "size": [
+            "M (8)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: Medium (8), Black Peace",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Black_Peace?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: M (8). Color: Black Peace. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102848&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102848"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Peace"
+        ],
+        "size": [
+            "M (8)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-20 SO® 2-Pack Skater Dresses in Regular & Plus Size, Girl's, Size: Large (10/12), Black Daisy",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6502046_Black_Daisy?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 20.99,
+        "discount": "30%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the effortless style of these girls' skater dresses from SO. She'll love the effortless style of these girls' skater dresses from SO. FEATURES 2 pack Short sleeves Knee length Skater silhouetteFABRIC & CARE Cotton, polyester Machine wash ImportedSUSTAINABILITY FEATURES Supports more sustainable cotton farming Size: L (10/12). Color: Black Daisy. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6502046/girls-6-20-so-2-pack-skater-dresses-in-regular-plus-size.jsp?skuid=59315429&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=59315429"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Daisy"
+        ],
+        "size": [
+            "L (10/12)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-20 SO® 2-Pack Skater Dresses in Regular & Plus Size, Girl's, Size: XL (14/16), Floral",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6502046_Floral?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 20.99,
+        "discount": "30%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the effortless style of these girls' skater dresses from SO. She'll love the effortless style of these girls' skater dresses from SO. FEATURES 2 pack Short sleeves Knee length Skater silhouetteFABRIC & CARE Cotton, polyester Machine wash ImportedSUSTAINABILITY FEATURES Supports more sustainable cotton farming Size: XL (14/16). Color: Floral. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6502046/girls-6-20-so-2-pack-skater-dresses-in-regular-plus-size.jsp?skuid=59315442&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=59315442"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Floral"
+        ],
+        "size": [
+            "XL (14/16)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: XS (6/6X), Gray Butterfly",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Gray_Butterfly?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XS (6/6X). Color: Gray Butterfly. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314128&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314128"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Gray Butterfly"
+        ],
+        "size": [
+            "XS (6/6X)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee, Girl's, Size: Medium, White Blue",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/5536055?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 35,
+        "currency": "USD",
+        "salesPrice": 31.5,
+        "discount": "10%",
+        "category": "Apparel & Accessories >Clothing >Baby & Toddler Clothing >Baby & Toddler Tops ",
+        "manufacturer": "Disney",
+        "advertiserName": "Kohl's",
+        "description": "You'll love the look of this juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee. ©Disney You'll love the look of this juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee. ©Disney Crewneck Short SleeveFABRIC & CARE Cotton Machine wash Imported Size: Medium. Color: White Blue. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-5536055/juniors-disney-textbook-dresses-bombard-wash-crop-graphic-tee.jsp?skuid=46883099&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=46883099"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "White Blue"
+        ],
+        "size": [
+            "Medium"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: Small (7), Gray Butterfly",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Gray_Butterfly?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: S (7). Color: Gray Butterfly. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102858&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102858"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Gray Butterfly"
+        ],
+        "size": [
+            "S (7)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: Large (10/12), Gray Butterfly",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Gray_Butterfly?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: L (10/12). Color: Gray Butterfly. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314131&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314131"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Gray Butterfly"
+        ],
+        "size": [
+            "L (10/12)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: Medium (8), Blue Team Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Blue_Multi_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: M (8). Color: Blue Team Dye. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102854&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102854"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Blue Team Dye"
+        ],
+        "size": [
+            "M (8)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 Asian Culture Dresses Group Shot Graphic Tee, Girl's, Size: Large, Red",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/5005365?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 21.99,
+        "currency": "USD",
+        "salesPrice": 19.99,
+        "discount": "9%",
+        "category": "Apparel & Accessories >Clothing >Baby & Toddler Clothing >Baby & Toddler Tops ",
+        "manufacturer": "Unbranded",
+        "advertiserName": "Kohl's",
+        "description": "Celebrate your heritage with this girls' graphic tee. She'll celebrate Asian American Pacific Islander Heritage Month with this inspiring girls' tee. Crewneck Short sleeves In honor of Asian American Pacific Islander Heritage Month, Kohl’s is donating $100,000 to Alliance for a Healthier Generation to celebrate Asian American and Pacific Islander health equity champions and to develop resources that support the health and well-being of Asian American and Pacific Islander families. Learn more at KohlsHealthyAtHome.org.FABRIC & CARE Cotton Machine wash Imported Size: Large. Color: Red. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-5005365/girls-6-16-asian-culture-dresses-group-shot-graphic-tee.jsp?skuid=77922603&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=77922603"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Red"
+        ],
+        "size": [
+            "Large"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: Large (10/12), Black Peace",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Black_Peace?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: L (10/12). Color: Black Peace. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102849&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102849"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Peace"
+        ],
+        "size": [
+            "L (10/12)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: XS (6/6X), Black Peace",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Black_Peace?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XS (6/6X). Color: Black Peace. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314117&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314117"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Peace"
+        ],
+        "size": [
+            "XS (6/6X)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: Medium (8), Blue Team Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Blue_Multi_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: M (8). Color: Blue Team Dye. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314124&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314124"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Blue Team Dye"
+        ],
+        "size": [
+            "M (8)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-20 SO® 2-Pack Skater Dresses in Regular & Plus Size, Girl's, Size: Large (10/12), Mermaid Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6502046_Mermaid_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 20.99,
+        "discount": "30%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the effortless style of these girls' skater dresses from SO. She'll love the effortless style of these girls' skater dresses from SO. FEATURES 2 pack Short sleeves Knee length Skater silhouetteFABRIC & CARE Cotton, polyester Machine wash ImportedSUSTAINABILITY FEATURES Supports more sustainable cotton farming Size: L (10/12). Color: Mermaid Dye. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6502046/girls-6-20-so-2-pack-skater-dresses-in-regular-plus-size.jsp?skuid=59315435&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=59315435"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Mermaid Dye"
+        ],
+        "size": [
+            "L (10/12)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: Medium (8), Gray Butterfly",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Gray_Butterfly?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: M (8). Color: Gray Butterfly. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314130&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314130"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Gray Butterfly"
+        ],
+        "size": [
+            "M (8)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee, Girl's, Size: XL, White Blue",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/5536055?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 35,
+        "currency": "USD",
+        "salesPrice": 31.5,
+        "discount": "10%",
+        "category": "Apparel & Accessories >Clothing >Baby & Toddler Clothing >Baby & Toddler Tops ",
+        "manufacturer": "Disney",
+        "advertiserName": "Kohl's",
+        "description": "You'll love the look of this juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee. ©Disney You'll love the look of this juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee. ©Disney Crewneck Short SleeveFABRIC & CARE Cotton Machine wash Imported Size: X Large. Color: White Blue. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-5536055/juniors-disney-textbook-dresses-bombard-wash-crop-graphic-tee.jsp?skuid=46883101&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=46883101"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "White Blue"
+        ],
+        "size": [
+            "X Large"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: Small (7), Blue Team Dye",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Blue_Multi_Dye?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: S (7). Color: Blue Team Dye. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314123&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314123"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Blue Team Dye"
+        ],
+        "size": [
+            "S (7)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 Asian Culture Dresses Group Shot Graphic Tee, Girl's, Size: XL, Red",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/5005365?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 21.99,
+        "currency": "USD",
+        "salesPrice": 19.99,
+        "discount": "9%",
+        "category": "Apparel & Accessories >Clothing >Baby & Toddler Clothing >Baby & Toddler Tops ",
+        "manufacturer": "Unbranded",
+        "advertiserName": "Kohl's",
+        "description": "Celebrate your heritage with this girls' graphic tee. She'll celebrate Asian American Pacific Islander Heritage Month with this inspiring girls' tee. Crewneck Short sleeves In honor of Asian American Pacific Islander Heritage Month, Kohl’s is donating $100,000 to Alliance for a Healthier Generation to celebrate Asian American and Pacific Islander health equity champions and to develop resources that support the health and well-being of Asian American and Pacific Islander families. Learn more at KohlsHealthyAtHome.org.FABRIC & CARE Cotton Machine wash Imported Size: X Large. Color: Red. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-5005365/girls-6-16-asian-culture-dresses-group-shot-graphic-tee.jsp?skuid=77922604&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=77922604"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Red"
+        ],
+        "size": [
+            "X Large"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: Small (7), Black Peace",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Black_Peace?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: S (7). Color: Black Peace. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102847&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102847"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Peace"
+        ],
+        "size": [
+            "S (7)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: XL (14/16), Black Peace",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Black_Peace?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XL (14/16). Color: Black Peace. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102850&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102850"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Peace"
+        ],
+        "size": [
+            "XL (14/16)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: XL (14/16), Gray Butterfly",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Gray_Butterfly?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XL (14/16). Color: Gray Butterfly. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102861&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102861"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Gray Butterfly"
+        ],
+        "size": [
+            "XL (14/16)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-pk. Adaptive Long Sleeve Skater Dresses, Girl's, Size: XS (6/6X), Gray Butterfly",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828637_Gray_Butterfly?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 29.99,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! She'll love the colorful style of this 2-pack of Adaptive Skater Dresses from Jumping Beans. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortConveniently placed openings for quick and direct access to the abdomenFEATURES Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: XS (6/6X). Color: Gray Butterfly. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828637/girls-6-16-so-2-pk-adaptive-long-sleeve-skater-dresses.jsp?skuid=79102857&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=79102857"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Gray Butterfly"
+        ],
+        "size": [
+            "XS (6/6X)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Girls 6-16 SO® 2-Pack Adaptive Long Sleeve Skater Dresses, Girl's, Size: Large (10/12), Black Peace",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6828560_Black_Peace?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 30,
+        "currency": "USD",
+        "salesPrice": 30,
+        "discount": "0%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! Refresh her wardrobe with these girls' SO 2-pack adaptive long sleeve skater dresses. Kohl's adaptive clothing styles are designed to simplify dressing and provide support, offering ease and comfort to meet a variety of accessibility needs. The designs are carefully curated with special access, sensory-friendly materials, easy-snaps, and much more. Click on this ADAPTIVE GUIDE to find out about fit, functionality and more! ADAPTIVE FEATURES Tag free design for added comfortSensory friendly seams are soft and smooth to the touchFEATURES Jersey construction Crewneck Long sleevesFABRIC & CARE Cotton, polyester Machine wash ImportedRESPONSIBLE Supports more sustainable cotton farming Size: L (10/12). Color: Black Peace. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6828560/girls-6-16-so-2-pack-adaptive-long-sleeve-skater-dresses.jsp?skuid=86314120&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=86314120"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Peace"
+        ],
+        "size": [
+            "L (10/12)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee, Girl's, Size: Large, White Blue",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/5536055?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 35,
+        "currency": "USD",
+        "salesPrice": 31.5,
+        "discount": "10%",
+        "category": "Apparel & Accessories >Clothing >Baby & Toddler Clothing >Baby & Toddler Tops ",
+        "manufacturer": "Disney",
+        "advertiserName": "Kohl's",
+        "description": "You'll love the look of this juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee. ©Disney You'll love the look of this juniors' Disney Textbook Dresses Bombard Wash Crop Graphic Tee. ©Disney Crewneck Short SleeveFABRIC & CARE Cotton Machine wash Imported Size: Large. Color: White Blue. Gender: female. Age Group: kids.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-5536055/juniors-disney-textbook-dresses-bombard-wash-crop-graphic-tee.jsp?skuid=46883100&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=46883100"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "White Blue"
+        ],
+        "size": [
+            "Large"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Girls 6-20 SO® 2-Pack Skater Dresses in Regular & Plus Size, Girl's, Size: XL (14/16), Black Daisy",
+        "imageUrl": [
+            "https://media.kohlsimg.com/is/image/kohls/6502046_Black_Daisy?wid=800&hei=800&op_sharpen=1"
+        ],
+        "price": 29.99,
+        "currency": "USD",
+        "salesPrice": 20.99,
+        "discount": "30%",
+        "category": "Apparel & Accessories >Clothing >Dresses ",
+        "manufacturer": "SO",
+        "advertiserName": "Kohl's",
+        "description": "She'll love the effortless style of these girls' skater dresses from SO. She'll love the effortless style of these girls' skater dresses from SO. FEATURES 2 pack Short sleeves Knee length Skater silhouetteFABRIC & CARE Cotton, polyester Machine wash ImportedSUSTAINABILITY FEATURES Supports more sustainable cotton farming Size: XL (14/16). Color: Black Daisy. Gender: female. Age Group: kids. Material: Cotton Blend.",
+        "linkurl": [
+            "https://www.kohls.com/product/prd-6502046/girls-6-20-so-2-pack-skater-dresses-in-regular-plus-size.jsp?skuid=59315431&CID=seo_offers&utm_campaign=SAG&utm_medium=organic&utm_source=google&utm_product=59315431"
+        ],
+        "from": "FLEXOFFER",
+        "color": [
+            "Black Daisy"
+        ],
+        "size": [
+            "XL (14/16)"
+        ],
+        "gender": "female",
+        "isInStock": true,
+        "isOnSale": true
+    },
+    {
+        "productName": "Cotton On Kids - Bluey Super Soft Pajama Set - Lcn blu zephyr/bluey pizza girls",
+        "imageUrl": [
+            "https://cottonon.com/on/demandware.static/-/Sites-catalog-master-kids/default/dw48a6fab5/7345859/7345859-06-2.jpg"
+        ],
+        "price": "12",
+        "currency": "USD",
+        "salesPrice": "24.99",
+        "discount": "0%",
+        "category": "Apparel & Accessories->Clothing",
+        "manufacturer": "-",
+        "advertiserName": "Cotton On (US)",
+        "description": "HARLOW SUPER SOFT SHORT SLEEVE PYJAMA SET LICENSE",
+        "linkurl": [
+            "https://click.linksynergy.com/link?id=e2tPVNoFBZo&offerid=1392639.4109416798443657739985853&type=15&murl=https%3A%2F%2Fcottonon.com%2FUS%2Fharlow-super-soft-short-sleeve-pyjama-set-license%2F9360105005890.html"
+        ],
+        "from": "LINKSHARE",
+        "color": [],
+        "size": [],
+        "gender": "-",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Cotton On Kids - Disney Girl Gang Kids Metal Drink Bottle - Lcn dis girl gang/lilac drop",
+        "imageUrl": [
+            "https://cottonon.com/on/demandware.static/-/Sites-catalog-master-kids/default/dw427044d4/7342185/7342185-96-2.jpg"
+        ],
+        "price": "10",
+        "currency": "USD",
+        "salesPrice": "19.99",
+        "discount": "0%",
+        "category": "Apparel & Accessories->Clothing",
+        "manufacturer": "-",
+        "advertiserName": "Cotton On (US)",
+        "description": "Being a kids is thirsty work. Keep them hydrated with these stainless steel drink bottles. With the fun prints and designs they won't be leaving these bottles in the playgroundFeatures: - Screw Top With Flip Lid - Flip Out Straw Means Less Spills - 580Ml Capacity - Metal Wall Drink Bottle - Bpa FreeComposition: Polypropylene 10%, 304 Stainless Steel 90%",
+        "linkurl": [
+            "https://click.linksynergy.com/link?id=e2tPVNoFBZo&offerid=1392639.4109417795723598642339358&type=15&murl=https%3A%2F%2Fcottonon.com%2FUS%2Fkids-metal-drink-bottle%2F9360105176576.html"
+        ],
+        "from": "LINKSHARE",
+        "color": [],
+        "size": [],
+        "gender": "-",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Cotton On Kids - Girl Gang Drop Shoulder Short Sleeve Tee - Lcn dis girl gang/tie dye",
+        "imageUrl": [
+            "https://cottonon.com/on/demandware.static/-/Sites-catalog-master-kids/default/dw7c8f3938/7344910/7344910-353-2.jpg"
+        ],
+        "price": "12",
+        "currency": "USD",
+        "salesPrice": "24.99",
+        "discount": "0%",
+        "category": "Apparel & Accessories->Clothing",
+        "manufacturer": "-",
+        "advertiserName": "Cotton On (US)",
+        "description": "LICENSE DROP SHOULDER SHORT SLEEVE TEE",
+        "linkurl": [
+            "https://click.linksynergy.com/link?id=e2tPVNoFBZo&offerid=1392639.4109416435910892541996328&type=15&murl=https%3A%2F%2Fcottonon.com%2FUS%2Flicense-drop-shoulder-short-sleeve-tee%2F9360105022545.html"
+        ],
+        "from": "LINKSHARE",
+        "color": [],
+        "size": [],
+        "gender": "-",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Cotton On Kids - Single Pack Lcn Crew Sock - Lcn dis white/girl gang",
+        "imageUrl": [
+            "https://cottonon.com/on/demandware.static/-/Sites-catalog-master-kids/default/dwe84c1c99/7345004/7345004-12-2.jpg"
+        ],
+        "price": "2",
+        "currency": "USD",
+        "salesPrice": "4.99",
+        "discount": "0%",
+        "category": "Apparel & Accessories->Clothing",
+        "manufacturer": "-",
+        "advertiserName": "Cotton On (US)",
+        "description": "SINGLE PACK LCN CREW SOCK",
+        "linkurl": [
+            "https://click.linksynergy.com/link?id=e2tPVNoFBZo&offerid=1392639.4109410372611287638219041&type=15&murl=https%3A%2F%2Fcottonon.com%2FUS%2Fsingle-pack-lcn-crew-sock%2F9360105177757.html"
+        ],
+        "from": "LINKSHARE",
+        "color": [],
+        "size": [],
+        "gender": "-",
+        "isInStock": true,
+        "isOnSale": false
+    },
+    {
+        "productName": "Cotton On Kids - Spice Girls Drop Shoulder Short Sleeve Tee - Lcn bra spice girls/white",
+        "imageUrl": [
+            "https://cottonon.com/on/demandware.static/-/Sites-catalog-master-kids/default/dw172051c3/7344910/7344910-361-2.jpg"
+        ],
+        "price": "12",
+        "currency": "USD",
+        "salesPrice": "24.99",
+        "discount": "0%",
+        "category": "Apparel & Accessories->Clothing",
+        "manufacturer": "-",
+        "advertiserName": "Cotton On (US)",
+        "description": "LICENSE DROP SHOULDER SHORT SLEEVE TEE",
+        "linkurl": [
+            "https://click.linksynergy.com/link?id=e2tPVNoFBZo&offerid=1392639.4109415958655244516854859&type=15&murl=https%3A%2F%2Fcottonon.com%2FUS%2Flicense-drop-shoulder-short-sleeve-tee%2F9360105063241.html"
+        ],
+        "from": "LINKSHARE",
+        "color": [],
+        "size": [],
+        "gender": "-",
+        "isInStock": true,
+        "isOnSale": false
+    }
+]
+            
+            products && resultDiv?.insertAdjacentHTML("afterbegin",products
+            ?.map(data => ({
+                linkUrl : data?.linkurl,
+                imageUrl : data?.imageUrl,
+                productName : data?.productName,
+                currencyUnit : data?.currency,
+                price : (+data?.price)?.toFixed(2),
+                description : data?.description || "",
+                brand : data?.manufacturer==="-" ? "" : data?.manufacturer,
+            }))
+            ?.map(product => 
+            `<a href="${product.linkUrl}" target="_blank" class="product">
+                <div class="product_img">
+                    <img src="${product?.imageUrl}" />
+                </div>
+                <div class="product_details">
+                    <div class="product_name">${product?.productName}</div>
+                    <div class="product_desc" title="${product?.description}">${product?.description}</div>
+
+                    <div class="product_name product_not_name">${product?.currencyUnit} <span class="price">${product?.price}</span></div>
+                    <div class="product_name product_not_name">${product?.brand}</div>
+                </div>
+            </>`
+        ).join(""));
+        
+            document.getElementById("scroll_to_top").addEventListener("click",function(){
+                window.scrollTo({top:0,behavior:"smooth"})
+            }
+            )
+        </script>
+    </body>
+</html>
